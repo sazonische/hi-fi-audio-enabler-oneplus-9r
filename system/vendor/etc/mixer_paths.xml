@@ -431,6 +431,13 @@
     <!-- Headphone HiFi Filter -->
     <ctl name="HiFi Filter" value="On" />
 
+    <!-- Custom SampleRate and Format -->
+    <ctl name="USB_AUDIO_RX SampleRate" value="KHZ_384" />
+    <ctl name="USB_AUDIO_RX Format" value="S32_LE" />
+    <ctl name="RX_CDC_DMA_RX_0 SampleRate" value="KHZ_384" />
+    <ctl name="RX_CDC_DMA_RX_0 Format" value="S32_LE" />
+    <!-- <ctl name="HPHL Impedance" value="64" /> -->
+
     <!-- Headphone class-AB mode -->
     <ctl name="RX_HPH_PWR_MODE" value="LOHIFI" />
     <ctl name="RX HPH Mode" value="CLS_H_HIFI" />
@@ -2931,7 +2938,6 @@
         <ctl name="RX_MACRO RX0 MUX" value="AIF1_PB" />
         <ctl name="RX_MACRO RX1 MUX" value="AIF1_PB" />
         <ctl name="RX_CDC_DMA_RX_0 Channels" value="Two" />
-        <ctl name="RX_CDC_DMA_RX_0 Format" value="S32_LE" />
         <ctl name="RX INT0_1 MIX1 INP0" value="RX0" />
         <ctl name="RX INT1_1 MIX1 INP0" value="RX1" />
         <ctl name="RX INT0 DEM MUX" value="CLSH_DSM_OUT" />
