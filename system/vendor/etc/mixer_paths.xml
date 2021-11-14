@@ -439,7 +439,7 @@
     <!-- <ctl name="HPHL Impedance" value="64" /> -->
 
     <!-- Headphone class-AB mode -->
-    <ctl name="RX_HPH_PWR_MODE" value="LOHIFI" />
+    <ctl name="RX_HPH_PWR_MODE" value="MODE_MAX" />
     <ctl name="RX HPH Mode" value="CLS_H_HIFI" />
 
     <!-- IIR/voice anc -->
