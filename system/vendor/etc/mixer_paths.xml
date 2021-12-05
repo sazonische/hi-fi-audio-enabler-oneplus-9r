@@ -418,9 +418,9 @@
     <ctl name="TX_DEC6 Volume" value="84" />
     <ctl name="TX_DEC7 Volume" value="84" />
 
-    <ctl name="ADC1 Volume" value="12" />
-    <ctl name="ADC2 Volume" value="12" />
-    <ctl name="ADC3 Volume" value="12" />
+    <ctl name="ADC1 Volume" value="11" />
+    <ctl name="ADC2 Volume" value="11" />
+    <ctl name="ADC3 Volume" value="11" />
 
     <!-- Compander controls -->
     <ctl name="WSA_COMP1 Switch" value="0" />
@@ -428,7 +428,7 @@
     <ctl name="COMP7 Switch" value="0" />
     <ctl name="COMP8 Switch" value="0" />
 
-    <!-- Headphone HiFi Filter -->
+    <!-- HiFi Filter -->
     <ctl name="HiFi Filter" value="On" />
 
     <!-- Custom SampleRate and Format -->
@@ -436,9 +436,12 @@
     <ctl name="USB_AUDIO_RX Format" value="S32_LE" />
     <ctl name="RX_CDC_DMA_RX_0 SampleRate" value="KHZ_384" />
     <ctl name="RX_CDC_DMA_RX_0 Format" value="S32_LE" />
-    <!-- <ctl name="HPHL Impedance" value="64" /> -->
 
-    <!-- Headphone class-AB mode -->
+    <!-- Custom Impedance -->
+    <!-- <ctl name="HPHL Impedance" value="24" /> -->
+    <!-- <ctl name="HPHR Impedance" value="24" /> -->
+
+    <!-- Headphone HPH mode -->
     <ctl name="RX_HPH_PWR_MODE" value="MODE_MAX" />
     <ctl name="RX HPH Mode" value="CLS_H_HIFI" />
 
